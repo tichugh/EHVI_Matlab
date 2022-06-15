@@ -9,7 +9,6 @@ EHV1 = EHVI_2d(PF,r,mu,sigma)
 EHV1 = EHVI_monte_carlo(PF,r,mu,sigma);
 
 %%
-addpath(genpath('Support_files'));
 PF = dlmread('DTLZ2.2D.pf');
 
 %%
